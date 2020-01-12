@@ -1,0 +1,14 @@
+uuid: 0b47e54a-c5fa-46b8-a5ed-10320b9ffa3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.portfolio
+id: portfolio-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: portfolio
+permissions_ui: true
+permissions: {  }

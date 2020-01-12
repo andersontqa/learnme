@@ -1,0 +1,10 @@
+uuid: 42e170ea-35e8-4d45-a680-a0e091bbf785
+langcode: en
+status: true
+dependencies: {  }
+id: portfolio
+label: Portfolio
+description: 'User''s space to host all types of Portfolio Pieces'
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

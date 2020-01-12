@@ -1,0 +1,17 @@
+uuid: 613c9f2f-7da6-41d7-b7a4-0be8aef0c70a
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.portfolio
+  module:
+    - user
+id: portfolio-group_membership
+label: 'Portfolio: Group membership'
+description: 'Adds users to groups as members.'
+group_type: portfolio
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false
